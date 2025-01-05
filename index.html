@@ -1,5 +1,214 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hope's Care</title>
+  <!-- Bootstrap CSS (via CDN) -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  >
+  <!-- Optional Bootstrap Icons (via CDN) -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  >
+  <style>
+    /* Custom styling to achieve a simple, Apple-like design */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f5f5f5; 
+      color: #333;
+    }
+    .navbar-brand {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    /* Add gentle shadows and keylines */
+    .card {
+      border: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    .card-img-top {
+      object-fit: cover;
+      height: 200px;
+    }
+    /* Buttons with slight box-shadow and rounded corners */
+    .btn-custom {
+      background-color: #007bff;
+      border: none;
+      color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      border-radius: 5px;
+    }
+    .btn-custom:hover {
+      background-color: #0056b3;
+    }
+    /* Larger text for readability */
+    .lead {
+      font-size: 1.25rem;
+    }
+    .section-title {
+      font-size: 1.75rem;
+      font-weight: bold;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    /* Accessibility note:
+       - Large text
+       - Clear headings
+       - Sufficient color contrast
+    */
+  </style>
+</head>
 <body>
-Hello world!
+
+<!-- Header and Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Hope's Care</a>
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div 
+      class="collapse navbar-collapse" 
+      id="navbarSupportedContent"
+    >
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">
+            Products
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">
+            Services
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">
+            Contact Us
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="privacy.html">
+            Privacy
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Hero / Jumbotron Section -->
+<div class="bg-light py-5 mb-4">
+  <div class="container text-center">
+    <h1 class="display-5 fw-bold">Live Better with Hope’s Care</h1>
+    <p class="lead">
+      Tools and services designed to help people live better lives with Dementia.
+    </p>
+  </div>
+</div>
+
+<!-- Products Section -->
+<div class="container">
+  <h2 class="section-title">Our Products</h2>
+  <div class="row">
+    <!-- Product 1: ID Band -->
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <!-- Placeholder image -->
+        <img 
+          src="https://via.placeholder.com/350x200?text=ID+Band" 
+          class="card-img-top" 
+          alt="ID Band Placeholder Image"
+        >
+        <div class="card-body">
+          <h5 class="card-title">ID Band</h5>
+          <p class="card-text">
+            A comfortable, easy-to-read band that helps ensure quick identification.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Product 2: ID Card -->
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <!-- Placeholder image -->
+        <img 
+          src="https://via.placeholder.com/350x200?text=ID+Card" 
+          class="card-img-top" 
+          alt="ID Card Placeholder Image"
+        >
+        <div class="card-body">
+          <h5 class="card-title">ID Card</h5>
+          <p class="card-text">
+            A wallet-friendly card that communicates essential information quickly.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Product 3: Journally eBook -->
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <!-- Placeholder image -->
+        <img 
+          src="https://via.placeholder.com/350x200?text=Journally+eBook" 
+          class="card-img-top" 
+          alt="Journally eBook Placeholder Image"
+        >
+        <div class="card-body">
+          <h5 class="card-title">Journally eBook</h5>
+          <p class="card-text">
+            A digital journal to help record and recall important daily events.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="text-center my-4">
+    <a href="products.html" class="btn btn-custom btn-lg">Shop Now</a>
+  </div>
+</div>
+
+<!-- Accessibility Features Section (Optional) -->
+<div class="container py-5">
+  <h2 class="section-title">Accessibility</h2>
+  <p class="lead text-center">
+    We strive to make our website accessible for everyone by using clear text, 
+    intuitive icons, and audio options. If you have any difficulties, please 
+    <a href="contact.html">contact us</a>.
+  </p>
+</div>
+
+<!-- Footer -->
+<footer class="text-center py-3 mt-5 bg-white border-top">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Hope’s Care</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS (via CDN) -->
+<script 
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+></script>
 </body>
 </html>
