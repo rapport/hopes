@@ -8,6 +8,7 @@
   type="image/svg+xml"
   href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDMyIDMyIj48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZm9udC1zaXplPSIyMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+PurwvdGV4dD48L3N2Zz4="
   />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet"/>
   <title>💜Hope's Care</title>
   <!-- Bootstrap CSS (via CDN) -->
   <link 
@@ -77,6 +78,12 @@
   background-color: #7B68EE; /* Darker purple for hover effect */
   border-color: #6A5ACD; /* Even darker border for hover effect */
 }
+.logo {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700; /* Use bold for emphasis if necessary */
+    /* font-size: 1.5rem; Adjust size as needed */
+    color: #333; /* Ensure contrast for readability */
+  }
   </style>
 </head>
 <body>
@@ -84,7 +91,7 @@
 <!-- Header and Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
   <div class="container">
-    <a class="navbar-brand" href="index.html"><!--🌼-->💜Hope's Care</a>
+    <a class="navbar-brand logo" href="index.html"><!--🌼-->💜Hope's Care</a>
     <button 
       class="navbar-toggler" 
       type="button" 
@@ -129,7 +136,7 @@
 <!-- Main Hero / Jumbotron Section -->
 <div class="bg-light py-5 mb-4">
   <div class="container text-center">
-    <h1 class="display-5 fw-bold">Live Better with Hope’s Care</h1>
+    <h1 class="display-5 fw-bold">Live Better with <style class="logo">Hope’s Care</style></h1>
     <p class="lead">
       Tools and services designed to help people live better lives with Dementia.
     </p>
@@ -217,7 +224,7 @@
 <!-- Footer -->
 <footer class="text-center py-3 mt-5 bg-white border-top">
   <div class="container">
-    <p class="mb-0">&copy; 2025 💜Hope’s Care</p>
+    <p class="mb-0">&copy; 2025 💜<style class="logo">Hope’s Care</style></p>
   </div>
 </footer>
 
