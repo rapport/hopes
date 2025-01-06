@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+  rel="icon"
+  type="image/svg+xml"
+  href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f49c.svg"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet"/>
+  <title>Hope's Care</title>
+  <!-- Bootstrap CSS (via CDN) -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  >
+  <!-- Optional Bootstrap Icons (via CDN) -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  >
+  <style>
+    /* Custom styling to achieve a simple, Apple-like design */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f5f5f5; 
+      color: #333;
+    }
+    .navbar-brand {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    /* Add gentle shadows and keylines */
+    .card {
+      border: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    .card-img-top {
+      object-fit: cover;
+      height: 200px;
+    }
+    /* Buttons with slight box-shadow and rounded corners */
+    .btn-custom {
+      background-color: #007bff;
+      border: none;
+      color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      border-radius: 5px;
+    }
+    .btn-custom:hover {
+      background-color: #0056b3;
+    }
+    /* Larger text for readability */
+    .lead {
+      font-size: 1.25rem;
+    }
+    .section-title {
+      font-size: 1.75rem;
+      font-weight: bold;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    /* Accessibility note:
+       - Large text
+       - Clear headings
+       - Sufficient color contrast
+    */
+.btn-purple {
+  background-color: #9370DB; /* Dementia purple shade */
+  color: #fff; /* White text for good contrast */
+  border-color: #7B68EE; /* Slightly darker border */
+}
+
+.btn-purple:hover {
+  background-color: #7B68EE; /* Darker purple for hover effect */
+  border-color: #6A5ACD; /* Even darker border for hover effect */
+}
+.logo {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700; /* Use bold for emphasis if necessary */
+    /* font-size: 1.5rem; Adjust size as needed */
+    color: #333; /* Ensure contrast for readability */
+  }
+  </style>
+</head>
+<body>
+
+<!-- Header and Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand logo" href="index.html"><!--🌼-->💜Hope's Care</a>
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div 
+      class="collapse navbar-collapse" 
+      id="navbarSupportedContent"
+    >
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">
+            Products
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">
+            Services
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Hero / Jumbotron Section -->
+<div class="bg-light py-5 mb-4">
+  <div class="container text-center">
+    <h1 class="display-5 fw-bold">Live Better with <span class="logo">💜Hope’s Care</span></h1>
+    <p class="lead">
+      Tools and services designed to help people live better lives with Dementia.
+    </p>
+  </div>
+</div>
+
+<!-- Products Section -->
+<div class="container">
+  <h2 class="section-title">Our Products</h2>
+  <div class="row">
+    <!-- Product 1: ID Band -->
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <!-- Placeholder image -->
+        <img 
+          src="https://via.placeholder.com/350x200?text=ID+Band" 
+          class="card-img-top" 
+          alt="ID Band Placeholder Image"
+        >
+        <div class="card-body">
+          <h5 class="card-title">CareLink Band</h5>
+          <p class="card-text">
+            Comfortable, robust wristband ensuring safe roaming with quick ID and emergency alerts for help.
+          </p>
+          <div class="text-center my-4">
+            <a href="products.html" class="btn btn-custom btn-lg btn-purple">Buy Now £15</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product 2: ID Card -->
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <!-- Placeholder image -->
+        <img 
+          src="https://via.placeholder.com/350x200?text=ID+Card" 
+          class="card-img-top" 
+          alt="ID Card Placeholder Image"
+        >
+        <div class="card-body">
+          <h5 class="card-title">CareConnect Card</h5>
+          <p class="card-text">
+            A durable, affordable wallet-friendly card ensuring quick, reliable communication of essential information anytime, anywhere.
+          </p>
+          <div class="text-center my-4">
+            <a href="products.html" class="btn btn-custom btn-lg btn-purple">Buy Now £10</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product 3: Journally eBook -->
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <!-- Placeholder image -->
+        <img 
+          src="https://via.placeholder.com/350x200?text=Journally+eBook" 
+          class="card-img-top" 
+          alt="Journally eBook Placeholder Image"
+        >
+        <div class="card-body">
+          <h5 class="card-title">LifeLink Keyring</h5>
+          <p class="card-text">
+            Pocket-sized, personalised activity guide and keyring—support and security always within reach..
+          </p>
+          <div class="text-center my-4">
+            <a href="products.html" class="btn btn-custom btn-lg btn-purple">Buy Now £20</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<!-- Accessibility Features Section (Optional) -->
+<div class="container py-5">
+  <h2 class="section-title">Accessibility</h2>
+  <p class="lead text-center">
+    We strive to make our website accessible for everyone. If you have any difficulties, please 
+    <a href="contact.html">contact us</a>.
+  </p>
+</div>
+
+<!-- Footer -->
+<footer class="text-center py-3 mt-5 bg-white border-top">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 💜<span class="logo">Hope’s Care</span></p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS (via CDN) -->
+<script 
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+></script>
+</body>
+</html>
